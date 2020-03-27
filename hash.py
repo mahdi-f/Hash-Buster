@@ -5,7 +5,7 @@ import os
 import requests
 import argparse
 import concurrent.futures
-
+import hashlib
 parser = argparse.ArgumentParser()
 parser.add_argument('-s', help='hash', dest='hash')
 parser.add_argument('-f', help='file containing hashes', dest='file')
